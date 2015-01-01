@@ -1,0 +1,27 @@
+Clone Reddit
+Capybara Testing
+Rails Associations
+http://guides.rubyonrails.org/association_basics.html
+Nested Resources
+http://guides.rubyonrails.org/routing.html
+Requirements
+Your site must have the following behavior:
+
+Anyone can visit the root page and see a list of all the posts
+Anyone can click on a post to view its comments
+Only a logged in user can submit a new post
+Only a logged in user can comment on a post
+Only the owner/creator of a post can edit that post
+Only the owner/creator of a post can delete that post
+Only the owner/creator of a comment can edit that comment
+Only the owner/creator of a comment can delete that comment
+The specific models, routing, and views are completely up to you. With that said, this assignment is meant to build on all the things you've been learning up to this point: authentication, nested routes, model associations, etc.
+
+Styling
+Styling is not a huge component of this project, but feel free to make your site look nice. Add Bootstrap, Foundation, or roll your own styling from scratch. Don't stress out about it, though. I want you to focus mainly on the back-end logic.
+
+Bonus Features
+Completely optional, challenging features to add after you finish the basic functionality:
+
+Add the ability to comment on another comment. Hint: look into polymorpism
+Add subreddits
